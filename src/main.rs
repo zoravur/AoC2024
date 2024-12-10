@@ -2,7 +2,9 @@
 // mod day3;
 // mod day4;
 // mod day5;
-mod day6;
+// mod day6;
+// mod day7;
+mod day10;
 use std::io::{self, Read};
 
 fn main() {
@@ -15,5 +17,5 @@ fn main() {
 
     println!("{}", contents);
 
-    println!("Solution: {}", day6::solve(&contents));
+    println!("Solution: {}", day10::solve(&contents));
 }
